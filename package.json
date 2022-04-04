@@ -1,0 +1,31 @@
+{
+  "name": "canvaswave",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.17.8",
+    "babel-loader": "^8.2.4",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "copy-webpack-plugin": "^10.2.4",
+    "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "style-loader": "^3.3.1",
+    "terser-webpack-plugin": "^5.3.1",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.71.0",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "scripts": {
+    "dev": "webpack --config ./webpack.config.js",
+    "dev:sever": "webpack-dev-server --config ./webpack.config.js"
+  },
+  "devDependencies": {
+    "css-minimizer-webpack-plugin": "^3.4.1",
+    "webpack-cli": "^4.9.2"
+  }
+}
